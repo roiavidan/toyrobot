@@ -1,0 +1,21 @@
+{
+  "name": "toyrobot",
+  "version": "0.0.1",
+  "description": "Toy Robot Code Challenge for IRESS",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "jasmine": "^3.1.0",
+    "jshint": "^2.9.5"
+  },
+  "scripts": {
+    "pretest": "jshint src spec",
+    "test": "istanbul cover jasmine"
+  },
+  "jshintConfig": {
+    "esversion": 6
+  },
+  "author": "Roi Avidan",
+  "license": "ISC"
+}
